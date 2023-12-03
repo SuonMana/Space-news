@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  
+  body {
+    color: white;
+    background-color:lightskyblue;
+  }
+
+  h2 {
+    text-align: center;
+    padding: 15px;
+    background-color: aquamarine;
+  }
+
+  .result {
+    padding: 15px;
+    background-color: lightslategray;
+
+  }
+
+  #randomJoke {
+    padding: 15px;
+    display: block;
+    margin: 15px auto;
+  }
+
+  .joke {
+    padding: 15px;
+    display: grid;
+    gap: 15px;
+    text-align: center;
+
+  }
+
+  .hidden {
+    display: none;
+
+  }
+
+  .loading {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid white;
+    margin: auto;
+    border-top-color: black;
+    border-bottom-color: gray;
+
+    animation: loading 750ms infinite;
+  }
+  
+  @keyframes loading {
+    50%{
+        transform: rotate(1turn);
+    }
+  }
